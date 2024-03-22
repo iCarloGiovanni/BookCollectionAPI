@@ -1,4 +1,3 @@
-```markdown
 # Express API for Managing Books
 
 This Express API allows you to perform CRUD (Create, Read, Update, Delete) operations on a collection of books. It provides endpoints for managing books such as retrieving all books, retrieving a single book by its ID, adding a new book, updating an existing book, and deleting a book.
@@ -144,5 +143,3 @@ The API validates the input data according to the following rules:
 
 - [Express](https://www.npmjs.com/package/express): Fast, unopinionated, minimalist web framework for Node.js.
 - [Joi](https://www.npmjs.com/package/joi): Object schema validation library.
-
-```
