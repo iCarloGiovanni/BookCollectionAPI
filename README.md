@@ -8,16 +8,28 @@ This Express API allows you to perform CRUD (Create, Read, Update, Delete) opera
 To get started with this API, follow these steps:
 
 1. Clone this repository to your local machine:
-   `git clone https://github.com/iCarloGiovanni/BookCollectionAPI.git`
+
+   ```bash
+   git clone https://github.com/iCarloGiovanni/BookCollectionAPI.git
+   ```
 
 2. Navigate to the project directory:
-   `cd express-book-api`
+
+   ```bash
+   cd express-book-api
+   ```
 
 3. Install dependencies:
-   `npm install`
+
+   ```bash
+   npm install
+   ```
 
 4. Start the server:
-   `npm start`
+
+   ```bash
+   npm start
+   ```
 
    The server will start running on `http://localhost:3000` by default. You can change the port by setting the `PORT` environment variable.
 
@@ -63,7 +75,7 @@ GET /api/books
 ```
 
 **Response:**
-```
+```json
 [
   { "id": 1, "title": "Book 1" },
   { "id": 2, "title": "Book 2" },
@@ -79,7 +91,7 @@ GET /api/books/1
 ```
 
 **Response:**
-```
+```json
 { "id": 1, "title": "Book 1" }
 ```
 
@@ -92,7 +104,7 @@ Body: { "title": "New Book" }
 ```
 
 **Response:**
-```
+```json
 { "id": 4, "title": "New Book" }
 ```
 
@@ -105,7 +117,7 @@ Body: { "title": "Updated Book" }
 ```
 
 **Response:**
-```
+```json
 { "id": 1, "title": "Updated Book" }
 ```
 
@@ -117,7 +129,7 @@ DELETE /api/books/1
 ```
 
 **Response:**
-```
+```json
 { "id": 1, "title": "Updated Book" }
 ```
 
@@ -132,3 +144,5 @@ The API validates the input data according to the following rules:
 
 - [Express](https://www.npmjs.com/package/express): Fast, unopinionated, minimalist web framework for Node.js.
 - [Joi](https://www.npmjs.com/package/joi): Object schema validation library.
+
+```
