@@ -1,4 +1,4 @@
-# Express API for Managing Books
+# Node.js + Express API for Managing Books
 
 This Express API allows you to perform CRUD (Create, Read, Update, Delete) operations on a collection of books. It provides endpoints for managing books such as retrieving all books, retrieving a single book by its ID, adding a new book, updating an existing book, and deleting a book.
 
